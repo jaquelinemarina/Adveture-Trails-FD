@@ -1,8 +1,11 @@
-# React + Vite
+# Adveture Trails FD
+  Mini projeto em desenvolvimento na formação *Futuro DEV - Floripa Mais Tec* <br>
+  com o propósito de criar uma Plataforma de Compartilhamento de Rotas de Caminhada e Ciclismo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> [!NOTE]
+> A aplicação será desenvolvida de forma sequencial no decorrer das próximas semanas.
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> <b> Semana 10 </b> <br>
+> Semana focada na criação do projeto e do componente CardTrilhas que será utilizado na página de listagem das trilhas.
