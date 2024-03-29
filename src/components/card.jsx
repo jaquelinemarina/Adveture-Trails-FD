@@ -1,16 +1,27 @@
-function Card(props) {
-    retur(
+import * as PropTypes from "prop-types"
+import "./style.css"
+
+function CardTrail({ trailInfo }) {
+    return (
         <>
-            <p>{props.nameTrail}</p>
-            <p>{props.region}</p>
-            <p>{props.duration}</p>
-            <p>{props.path}</p>
-            <p>{props.difficulty}</p>
-            <p>{props.typeTrail}</p>
-            <p>{props.owner}</p>
-            <p>{props.URLimg}</p>
+            <h1>{trailInfo.trailName}</h1>
+            <span>{trailInfo.city}, {trailInfo.state}</span>
         </>
     )
 }
 
-export default Card
+CardTrail.propTypes = {
+    trailInfo: PropTypes.exact({
+        trailName: PropTypes.string.isRequired,
+        city: PropTypes.string.isRequired,
+        state: PropTypes.string.isRequired,
+        duration: PropTypes.number.isRequired,
+        path: PropTypes.number.isRequired,
+        difficulty: PropTypes.string.isRequired,
+        trailType: PropTypes.oneOf(['Hiking', 'Trekking', 'Ciclismo']),
+        owner: PropTypes.string.isRequired,
+        urlImg: PropTypes.string.isRequired,
+    })
+}
+
+export default CardTrail
