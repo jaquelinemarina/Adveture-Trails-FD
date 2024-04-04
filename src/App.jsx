@@ -1,4 +1,5 @@
 import CardTrilha from "./components/card.jsx"
+import Header from "./components/header.jsx"
 import "./App.css"
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
 
   return (
     <div className="container">
+      <Header />
       <h1 className="titulo">Explore trilhas incríveis</h1>
       {
         listaTrilhas.map((trilha, index) => (
