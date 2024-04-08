@@ -1,24 +1,24 @@
 import * as PropTypes from "prop-types";
 import "./card.css";
 
-function CardTrilha({ dadosTrilha }) {
+function CardTrilha() {
   return (
     <div className="card_container">
       <img
         className="card_imagem"
         width={200}
-        src={dadosTrilha.urlImagem}
+        src={trilhas.urlImagem}
         alt="imagem trilha"
       />
-        <div className="text_container">
-      <h1>{dadosTrilha.nomeTrilha}</h1>
-        <p>Trajeto: {dadosTrilha.trajeto} km</p>
-        <p>Duração: {dadosTrilha.duracao} minutos</p>
-        <p>Dificuldade: {dadosTrilha.dificuldade}</p>
-        <p>Tipo: {dadosTrilha.tipo}</p>
+      <div className="text_container">
+        <h1>{trilhas.nomeTrilha}</h1>
+        <p>Trajeto: {trilhas.trajeto} km</p>
+        <p>Duração: {trilhas.duracao} minutos</p>
+        <p>Dificuldade: {trilhas.dificuldade}</p>
+        <p>Tipo: {trilhas.tipo}</p>
       </div>
       <span>
-        {dadosTrilha.cidade} / {dadosTrilha.estado}
+        {trilhas.cidade} / {trilhas.estado}
       </span>
     </div>
   );
@@ -26,7 +26,7 @@ function CardTrilha({ dadosTrilha }) {
 
 // configuração das props types
 CardTrilha.propTypes = {
-  dadosTrilha: PropTypes.exact({
+  trilhas: PropTypes.exact({
     nomeTrilha: PropTypes.string.isRequired,
     cidade: PropTypes.string.isRequired,
     estado: PropTypes.string.isRequired,
