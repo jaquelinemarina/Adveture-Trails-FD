@@ -14,15 +14,15 @@ const routers = createBrowserRouter([
         errorElement: <h1>Erro 404</h1>,
         children: [
             {
-                path: '/',
+                path: './pages/Home',
                 element: <Home />,
             },
             {
-                path: '/cadastro',
+                path: './pages/Cadastro',
                 element: <Cadastro />,
             },
             {
-                path: '/lista',
+                path: './pages/Lista',
                 element: <Lista />,
             }
         ]

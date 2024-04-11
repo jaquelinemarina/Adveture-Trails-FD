@@ -1,0 +1,65 @@
+.container {
+    width: Fixed (960px)px;
+    height: Hug (351px)px;
+    top: 728px;
+    left: 234px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.img {
+    width: 400px;
+    height: 351px;
+}
+
+.card-area {
+    width: Fill (560px)px;
+    height: Fill (351px)px;
+    padding: 32px 0px 0px 0px;
+    gap: 24px;
+    background: #FFFFFF;
+}
+
+.title {
+    width: Fill (496px)px;
+    height: Hug (25px)px;
+    gap: 8px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    color: #0D1A26;
+}
+
+.user {
+    width: 496px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: right;
+    color: #0D1A26;
+}
+
+.info {
+    width: 496px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1%;
+    text-align: left;
+    color: #5C6670;
+}
+
+.difficulty {
+    width: Hug (70px)px;
+    height: Hug (24px)px;
+    padding: 6px 8px 6px 8px;
+    gap: 10px;
+    border-radius: 32px;
+    background: #EFF0F0;
+    color: #0D1A26;
+}
