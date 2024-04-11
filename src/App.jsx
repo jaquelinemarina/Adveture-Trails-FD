@@ -1,5 +1,5 @@
-import CardTrilha from "./components/card.jsx"
-import Header from "./components/header.jsx"
+import CardTrilha from "./components/cardTrilhas/card.jsx"
+import Header from "./components/header/header.jsx"
 import useFetch from "./hooks/useFetch.js"
 import "./App.css"
 
