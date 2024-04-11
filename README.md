@@ -15,3 +15,8 @@
 > <b> Semana 11 </b> <br>
 > Semana focada em armazenar as informações dos cards em um arquivo JSON, criar um hook para ler este arquivo e exibir os cards de acordo com as informações salvas.
 > Outra feature implementada será a criação do header da aplicação.
+
+<br>
+
+><b> Semana 12 </b> <br>
+Semana focada em criar as páginas do sistema; criar o gerenciamento de estado global e adicionar a biblioteca Material UI ao projeto.
