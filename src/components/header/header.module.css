@@ -1,0 +1,37 @@
+.container {
+    width: 1440px;
+    height: 80px;
+    color: #FFFFFF;
+    background: #504908;
+    font-family: Comfortaa;
+    font-size: 16px;
+    line-height: 17.84px;
+    letter-spacing: -1.5%;
+}
+
+.home {
+    width: 157px;
+    height: 42.67px;
+    top: 19px;
+    left: 84px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.list {
+    width: 157px;
+    height: 42.67px;
+    top: 18.67px;
+    left: 1010px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.config {
+    width: 157px;
+    height: 42.67px;
+    top: 18.67px;
+    left: 1204px;
+    font-weight: 400;
+    text-align: center;
+}

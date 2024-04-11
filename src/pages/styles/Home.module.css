@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.p1 {
+    width: Fixed (730px)px;
+    height: Hug (96px)px;
+    top: 440px;
+    left: 355px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.button1 {
+    width: Hug (151px)px;
+    height: Hug (40px)px;
+    top: 590px;
+    left: 644px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    background: #504908;
+    color: white;
+    border: 1px solid #000000
+}
+
+.img {
+    width: 1440px;
+    height: 1024px;
+    top: -5px;
+    background: #000000C2;
+}
+
+.title2 {
+    width: 904px;
+    height: 71px;
+    top: 1149px;
+    left: 83px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1.5%;
+    color: #000000;
+}
+
+.p2 {
+    width: 1273px;
+    height: 144px;
+    top: 1271px;
+    left: 83px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -1.5%;
+    color: #000000CC;
+}
+
+.button2 {
+    width: Hug (151px)px;
+    height: Hug (40px)px;
+    top: 1450px;
+    left: 644px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #504908;
+    border: 1px solid #000000;
+}
+
+.title3 {
+    width: 554px;
+    height: 227px;
+    top: 1604px;
+    left: 83px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -1, 5%;
+    text-align: left;
+    color: #000000;
+}
+
+.button3 {
+    width: Hug (197px)px;
+    height: Hug (40px)px;
+    top: 1894px;
+    left: 83px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background: #504908;
+    color: #FFFFFF;
+    border: 1px solid #000000
+}
+
+.img2 {
+    width: 617.14px;
+    height: 330px;
+    top: 1604px;
+    left: 728px;
+    top: 1602.89px;
+    left: 711.73px;
+}
