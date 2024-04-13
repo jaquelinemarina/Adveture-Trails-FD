@@ -1,37 +1,27 @@
 .container {
-    width: 1440px;
-    height: 80px;
-    color: #FFFFFF;
-    background: #504908;
-    font-family: Comfortaa;
-    font-size: 16px;
-    line-height: 17.84px;
-    letter-spacing: -1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100vw;
+    height: 3.3em;
+    background: #084e50;
 }
 
-.home {
-    width: 157px;
-    height: 42.67px;
-    top: 19px;
-    left: 84px;
-    font-weight: 700;
-    text-align: center;
+.home,
+.list,
+.register {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
 }
+
 
 .list {
-    width: 157px;
-    height: 42.67px;
-    top: 18.67px;
-    left: 1010px;
-    font-weight: 400;
-    text-align: center;
+    margin-left: 55em;
 }
 
-.config {
-    width: 157px;
-    height: 42.67px;
-    top: 18.67px;
-    left: 1204px;
-    font-weight: 400;
-    text-align: center;
+.register {
+    margin-right: 1em;
 }

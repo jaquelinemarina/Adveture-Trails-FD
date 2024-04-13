@@ -1,34 +1,24 @@
 .container {
-    width: 1440px;
-    height: 60px;
-    top: 2098px;
-    background-color: #504908;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    height: 2.5em;
+    background: #084e50;
     color: #FFFFFF;
 }
 
 .p {
-    width: 157px;
-    height: 32px;
-    top: 14px;
-    left: 77px;
     font-family: Comfortaa;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 17.84px;
-    letter-spacing: -1.5%;
-    text-align: center;
+    font-size: 13px;
 }
 
 .social {
-    width: 24px;
-    height: 24px;
-    top: 18px;
+    margin-top: .2em;
+    margin-left: 61em;
 }
 
 .github {
-    left: 1204px;
-}
-
-.linkedin {
-    left: 1256px;
+    margin-right: 1.2em;
 }
