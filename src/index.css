@@ -1,5 +1,8 @@
 /* configurações globais e variáveis */
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@350&family=Montserrat&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +10,10 @@
 }
 
 
-/* :root  das cores */
+/*após utilizar https://coolors.co/  para gerar uma paleta de cores*/
+:root {
+    --gunmental: #1F272B;
+    --midnightGreen: #084E50;
+    --cambridgeBlue: #84A98C;
+    --whiteSmoke: #F5F5F5;
+}
