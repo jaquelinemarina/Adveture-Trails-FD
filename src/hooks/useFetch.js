@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 
 function useFetch(url) {
   const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
+    setIsLoading(true);
     fetch(url)
       .then((res) => res.json())
       .then((value) => {
@@ -15,10 +15,10 @@ function useFetch(url) {
         window.alert("Ocorreu um erro ao buscar os dados");
         console.log(err);
       })
-      .finally(() => setLoading(false));
+      .finally(() => setIsLoading(false));
   }, [url]);
 
-  return [data, loading];
+  return [data, setIsLoading];
 }
 
 export default useFetch;

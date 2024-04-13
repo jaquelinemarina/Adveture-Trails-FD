@@ -1,24 +1,13 @@
-import CardTrilha from '../components/cardTrilhas/card';
-import useFetch from '../hooks/useFetch';
 import style from './styles/Lista.module.css';
+import CardTrilha from '../components/cardTrilhas/card';
+import { TrilhasContext } from '../context/TrilhasContext';
+import { useContext } from 'react';
 
 
-export function Json() {
-    
-    const [trilhas] = useFetch("/json/trilhas.json")
-    
-    return (
-        <>
-            {trilhas &&
-                trilhas.map((trilhas) => (
-                    <CardTrilha key={trilhas.nomeTrilha} />
-                ))}
-        </>
-    )
-}
+export function Lista() {
 
+    const { trilhas, isLoading } = useContext(TrilhasContext)
 
- export function Lista() {
     return (
         <div className={style.container}>
             <div className={style.img}
@@ -26,6 +15,16 @@ export function Json() {
                 alt='imagem trilhas'>
             </div>
             <h1 className={style.title}>Explore trilhas incríveis</h1>
+
+
+            {Array.isArray(trilhas) && !isLoading ? (
+                trilhas.map((trilhas, index) => (
+                    <CardTrilha dadosTrilha={trilhas} key={index} />
+                ))
+            ) : (
+                <p>Não há dados disponíveis</p>
+            )
+            }
             <CardTrilha />
         </div>
     );
