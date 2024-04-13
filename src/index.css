@@ -15,5 +15,17 @@
     --gunmental: #1F272B;
     --midnightGreen: #084E50;
     --cambridgeBlue: #84A98C;
-    --whiteSmoke: #F5F5F5;
+    --white: #FFFFFF;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
 }

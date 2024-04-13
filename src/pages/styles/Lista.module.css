@@ -1,24 +1,30 @@
 .container {
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img {
-    width: 1440px;
-    height: 453px;
-    background: #000000C2;
+    margin-top: -7em;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    width: 100vw;
+    margin-top: -17.2em;
 }
 
 .title {
-    width: 960px;
-    height: 45px;
-    top: 568px;
-    left: 240px;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 45px;
+    margin-top: 1.8em;
+    margin-bottom: 1.5em;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 36px;
     text-align: center;
-    color: #504908;
+    color: var(--midnightGreen);
+    letter-spacing: .2em;
 }

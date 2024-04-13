@@ -5,14 +5,14 @@
     position: fixed;
     width: 100vw;
     height: 3.3em;
-    background: #084e50;
+    background: var(--midnightGreen);
 }
 
 .home,
 .list,
 .register {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Comfortaa", sans-serif;
     font-size: 14px;
 }

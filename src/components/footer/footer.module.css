@@ -5,8 +5,8 @@
     position: relative;
     width: 100vw;
     height: 2.5em;
-    background: #084e50;
-    color: #FFFFFF;
+    background: var(--midnightGreen);
+    color: var(--white);
 }
 
 .p {
@@ -16,7 +16,7 @@
 
 .social {
     margin-top: .2em;
-    margin-left: 61em;
+    margin-left: 65em;
 }
 
 .github {
