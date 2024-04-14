@@ -131,3 +131,18 @@
     height: 45vh;
     margin-left: 2em;
 }
+
+.button1:hover {
+    background-color: var(--shadow);
+    transition: all 0.5s;
+}
+
+.button2:hover {
+    background-color: var(--shadow);
+    transition: all 0.5s;
+}
+
+.button3:hover {
+    background-color: var(--shadow);
+    transition: all 0.5s;
+}
