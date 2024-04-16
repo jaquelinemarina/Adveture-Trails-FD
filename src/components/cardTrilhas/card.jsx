@@ -2,7 +2,7 @@ import * as PropTypes from "prop-types";
 import style from "./card.module.css";
 import trilhas from "../../pages/Lista";
 
-function CardTrilha() {
+function CardTrilha({trilhas}) {
   return (
     <div className={style.container}>
       <div className={style.card}>

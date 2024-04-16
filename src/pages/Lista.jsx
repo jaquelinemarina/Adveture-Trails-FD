@@ -23,7 +23,7 @@ export function Lista() {
 
                 {Array.isArray(trilhas) && !isLoading ? (
                     trilhas.map((trilhas, index) => (
-                        <CardTrilha dadosTrilha={trilhas} key={index} />
+                        <CardTrilha trilhas={trilhas} key={index} />
                     ))
                 ) : (
                     <p>Não há dados disponíveis</p>
