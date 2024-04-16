@@ -1,24 +1,32 @@
 import * as PropTypes from "prop-types";
 import style from "./card.module.css";
+import trilhas from "../../pages/Lista";
 
 function CardTrilha() {
   return (
     <div className={style.container}>
-      <img
-        className={style.img}
-        width={200}
-        src={trilhas.urlImagem}
-        alt="imagem trilha"
-      />
-      <div className={style.card - area}>
-        <h1 className={style.title}>{trilhas.nomeTrilha} - {trilhas.cidade} / {trilhas.estado}</h1>
-        <h3 className={style.user}>Por: {trilhas.nomeUsuario}</h3>
-        <div className={style.info}>
-          <p>Duração: {trilhas.duracao} minutos</p>
-          <p>Trajeto: {trilhas.trajeto} km</p>
+      <div className={style.card}>
+        <div className={style.imgcontent}>
+          <img
+            className={style.img}
+            width={200}
+            src={trilhas.urlImagem}
+            alt="imagem trilha"
+          />
         </div>
-        <div className={style.difficulty}>
-          <p>Dificuldade: {trilhas.dificuldade}</p>
+
+        <div className={style.textContent}>
+          <h1 className={style.title}>{trilhas.nomeTrilha} - {trilhas.cidade} / {trilhas.estado}</h1>
+          <h3 className={style.user}>Por: {trilhas.nomeUsuario}</h3>
+
+          <div className={style.info}>
+            <p>Duração: {trilhas.duracao} minutos</p>
+            <p>Trajeto: {trilhas.trajeto} km</p>
+          </div>
+
+          <div className={style.difficulty}>
+            <p>Dificuldade: {trilhas.dificuldade}</p>
+          </div>
         </div>
       </div>
     </div>

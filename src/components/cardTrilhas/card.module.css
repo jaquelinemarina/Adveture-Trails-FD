@@ -1,51 +1,49 @@
 .container {
-    width: Fixed (960px)px;
-    height: Hug (351px)px;
-    top: 728px;
-    left: 234px;
+    width: 45vw;
+    height: 18em;
     box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 3.5em;
 }
 
-.img {
-    width: 400px;
-    height: 351px;
+.imgContent {
+    width: 20em;
+    height: 18em;
 }
 
-.card-area {
-    width: Fill (560px)px;
-    height: Fill (351px)px;
+.card {
+    display: flex;
+    width: 35em;
+    height: 12em;
     padding: 32px 0px 0px 0px;
-    gap: 24px;
-    background: #FFFFFF;
+    background: var(--white);
+}
+
+.textContent {
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 7em;
+    gap: 1.5em;
+    color: var(--gunmental);
+    font-family: "Inter", sans-serif;
 }
 
 .title {
-    width: Fill (496px)px;
-    height: Hug (25px)px;
-    gap: 8px;
-    font-family: Inter;
     font-size: 20px;
     font-weight: 700;
-    line-height: 25px;
     text-align: left;
-    color: #0D1A26;
+    margin-top: .3em;
 }
 
 .user {
-    width: 496px;
-    height: 20px;
-    font-family: Inter;
+    margin-top: -.5em;
     font-size: 16px;
     font-weight: 700;
-    line-height: 20px;
     text-align: right;
-    color: #0D1A26;
 }
 
 .info {
-    width: 496px;
-    height: 24px;
-    font-family: Inter;
+    margin-top: .3em;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -55,11 +53,9 @@
 }
 
 .difficulty {
-    width: Hug (70px)px;
-    height: Hug (24px)px;
-    padding: 6px 8px 6px 8px;
-    gap: 10px;
-    border-radius: 32px;
+    width: 6.6em;
+    padding: 5px 0px 6px 8px;
+    border-radius: 30px;
     background: #EFF0F0;
-    color: #0D1A26;
+    margin-top: .8em;
 }
