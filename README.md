@@ -20,3 +20,8 @@
 
 ><b> Semana 12 </b> <br>
 Semana focada em criar as páginas do sistema; criar o gerenciamento de estado global e adicionar a biblioteca Material UI ao projeto.
+
+<br>
+
+><b> Semana 13 </b> <br>
+Semana focada em criar a para página de cadastro de trilhas. O objetivo final será criar o formulário com react-hook-forms, incluindo estrutura, validações e submit.
