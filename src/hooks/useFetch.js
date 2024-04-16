@@ -18,7 +18,7 @@ function useFetch(url) {
       .finally(() => setIsLoading(false));
   }, [url]);
 
-  return [data, setIsLoading];
+  return [data, isLoading];
 }
 
 export default useFetch;
