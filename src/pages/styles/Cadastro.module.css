@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 94.2vh;
+}
+
+.img {
+    margin-top: 3em;
+    margin-left: -9em;
+
+}
+
+.content {
+    margin-top: 3em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.title {
+    margin-bottom: .8em;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: .2em;
+    color: var(--midnightGreen);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 37vw;
+    margin-top: 1.5em;
+    gap: 1em;
+    line-height: 1.7em;
+}
+
+.div1,
+.div4,
+.div5 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -.3em;
+}
+
+.columns {
+    margin-top: .1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div2,
+.div3 {
+    display: flex;
+    flex-direction: column;
+    width: 17.5vw;
+    gap: .5em;
+    line-height: .8em;
+}
+
+label {
+    font-size: 1em;
+    color: var(--gunmental);
+}
+
+input,
+select {
+    width: 100%;
+    height: 2.4em;
+    color: #9e9d9d;
+    border: .1px solid #9e9d9d;
+    border-radius: 4px;
+    padding-left: .5em;
+    font-size: .9em;
+    outline: none;
+}
+
+select {
+    cursor: pointer;
+}
+
+.btn {
+    margin-top: 1em;
+    display: flex;
+    justify-content: right;
+}
+
+.btnRegister,
+.btnBack {
+    border-radius: 4px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: .57em;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: var(--midnightGreen);
+    border: 2.1px solid var(--midnightGreen);
+    background-color: transparent;
+    letter-spacing: .05em;
+    cursor: pointer;
+    box-shadow: .5px .5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.btnBack {
+    margin-left: 1.2em;
+}
+
+.btnRegister:hover,
+.btnBack:hover {
+    color: var(--white);
+    background-color: var(--midnightGreen);
+    transition: all 0.5s;
+}
+
+br {
+    content: " "
+}
