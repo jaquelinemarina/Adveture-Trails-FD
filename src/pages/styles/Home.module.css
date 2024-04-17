@@ -18,7 +18,7 @@
     position: absolute;
     width: 50vw;
     height: 100vh;
-    margin-top: -35em;
+    margin-top: -38em;
     gap: 2.2em;
 }
 
@@ -28,7 +28,6 @@
     font-size: 36px;
     font-weight: lighter;
     letter-spacing: .1em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .p1 {
@@ -36,25 +35,32 @@
     color: var(--white);
     font-family: "Montserrat", sans-serif;
     letter-spacing: .1em;
-    font-size: 15px;
+    font-size: 15.5px;
     line-height: 1.5em;
 }
 
 .button1,
 .button2,
 .button3 {
-    padding: 8px 16px 8px 16px;
     border-radius: 4px;
     font-family: "Comfortaa", sans-serif;
     font-size: 16px;
     font-weight: 700;
-    padding: .7em;
+    padding: .6em;
     text-align: center;
-    background-color: var(--midnightGreen);
-    color: white;
     border: none;
-    margin-top: 2em;
     text-decoration: none;
+    color: var(--midnightGreen);
+    border: 2.1px solid var(--midnightGreen);
+    background-color: transparent;
+    letter-spacing: .05em;
+    box-shadow: .5px .5px 6px rgba(0, 0, 0, 0.25);
+}
+
+.button1 {
+    color: var(--white);
+    border: 2.1px solid var(--white);
+    margin-top: 2.5em;
 }
 
 .content2 {
@@ -72,28 +78,24 @@
     color: var(--gunmental);
 }
 
-
 .title2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 72px;
     letter-spacing: -1.5%;
     margin-bottom: .5em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .p2 {
     font-family: "Montserrat", sans-serif;
     font-size: 19px;
     line-height: 30px;
-    margin-bottom: 3.5em;
+    margin-bottom: 3em;
 }
 
 .button2 {
     margin-left: 33.7em;
-    padding: .7em;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .register {
@@ -112,18 +114,12 @@
 .title3 {
     font-family: "Montserrat", sans-serif;
     width: 31vw;
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 58px;
     text-align: left;
     color: var(--gunmental);
     margin-bottom: 1.6em;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-}
-
-.button3 {
-    padding: .7em;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .img2 {
@@ -133,16 +129,19 @@
 }
 
 .button1:hover {
-    background-color: var(--shadow);
+    color: var(--gunmental);
+    background-color: var(--white);
     transition: all 0.5s;
 }
 
 .button2:hover {
-    background-color: var(--shadow);
+    color: var(--white);
+    background-color: var(--midnightGreen);
     transition: all 0.5s;
 }
 
 .button3:hover {
-    background-color: var(--shadow);
+    color: var(--white);
+    background-color: var(--midnightGreen);
     transition: all 0.5s;
 }

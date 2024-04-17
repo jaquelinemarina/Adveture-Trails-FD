@@ -16,7 +16,7 @@ function Home() {
                 <h1 className={style.title1}>Que tal aproveitar um tempo em meio a natureza?</h1>
                 <p className={style.p1}>
                     Junte-se à comunidade de entusiastas ao ar livre, compartilhe suas aventuras e inspire-se com as experiências de outros aventureiros.
-                    Prepare-se para explorar novos horizontes e se conectar com a natureza através do Adventure Trails FD!
+                    Prepare-se para explorar novos horizontes e se conectar com a natureza através do Adventure Trails FD
                 </p>
                 <a className={style.button1} href="./Lista">Explorar Trilhas</a>
             </div>
