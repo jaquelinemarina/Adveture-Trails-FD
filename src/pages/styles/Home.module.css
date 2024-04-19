@@ -89,6 +89,7 @@
 
 .p2 {
     font-family: "Montserrat", sans-serif;
+    color: var(--gunmental);
     font-size: 19px;
     line-height: 30px;
     margin-bottom: 3em;
