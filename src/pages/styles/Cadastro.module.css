@@ -3,22 +3,22 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100vw;
-    height: 94.2vh;
+    height: 108vh;
 }
 
 .img {
     margin-top: 3em;
     margin-left: -9em;
-
 }
 
 .content {
-    margin-top: 3em;
+    margin-top: 2em;
     font-family: "Montserrat", sans-serif;
+    color: var(--gunmental);
 }
 
 .title {
-    margin-bottom: .8em;
+    margin-bottom: 1em;
     font-size: 30px;
     font-weight: lighter;
     letter-spacing: .2em;
@@ -34,28 +34,28 @@
     line-height: 1.7em;
 }
 
-.div1,
-.div4,
-.div5 {
+.nameTrail,
+.typeTrail,
+.urlImg {
     display: flex;
     flex-direction: column;
     margin-top: -.3em;
 }
 
 .columns {
-    margin-top: .1em;
+    margin-top: -.3em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.div2,
-.div3 {
+.sideOne,
+.sideTwo {
     display: flex;
     flex-direction: column;
     width: 17.5vw;
     gap: .5em;
-    line-height: .8em;
+    line-height: 1.8em;
 }
 
 label {
@@ -66,13 +66,14 @@ label {
 input,
 select {
     width: 100%;
-    height: 2.4em;
-    color: #9e9d9d;
-    border: .1px solid #9e9d9d;
+    height: 2.5em;
+    color: rgb(125, 125, 126);
+    border: .1px solid #b2b0b0;
     border-radius: 4px;
     padding-left: .5em;
     font-size: .9em;
     outline: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 select {
@@ -91,7 +92,8 @@ select {
     font-family: "Comfortaa", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    padding: .57em;
+    padding: .5em;
+    height: 2.5em;
     text-align: center;
     border: none;
     text-decoration: none;
@@ -105,6 +107,8 @@ select {
 
 .btnBack {
     margin-left: 1.2em;
+    padding: .3em;
+    width: 4.6em;
 }
 
 .btnRegister:hover,
@@ -114,6 +118,7 @@ select {
     transition: all 0.5s;
 }
 
-br {
-    content: " "
+p {
+    font-size: .8em;
+    color: rgb(191, 31, 31);
 }
