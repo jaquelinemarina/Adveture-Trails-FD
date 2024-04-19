@@ -12,6 +12,7 @@
 .p {
     font-family: Comfortaa;
     font-size: 13px;
+    color: var(--white);
 }
 
 .social {
