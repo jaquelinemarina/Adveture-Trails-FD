@@ -1,48 +1,48 @@
 {
   "trilhas": [
     {
-      "nomeTrilha": "Trilha da Costa da Lagoa",
-      "cidade": "Florianópolis",
-      "estado": "SC",
+      "nameTrail": "Trilha da Costa da Lagoa",
+      "city": "Florianópolis",
+      "state": "SC",
       "duracao": 90,
-      "trajeto": 4,
-      "dificuldade": "Iniciante",
-      "tipo": "Hiking",
-      "nomeUsuario": "Jaqueline",
-      "urlImagem": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "path": 4,
+      "difficulty": "Iniciante",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "nomeTrilha": "Trilha do Gravatá",
-      "cidade": "Florianópolis",
-      "estado": "SC",
+      "nameTrail": "Trilha do Gravatá",
+      "city": "Florianópolis",
+      "state": "SC",
       "duracao": 40,
-      "trajeto": 1.4,
-      "dificuldade": "Fácil",
-      "tipo": "Hiking",
-      "nomeUsuario": "Jaqueline",
-      "urlImagem": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "path": 1.4,
+      "difficulty": "Fácil",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "nomeTrilha": "Trilha de Naufragados",
-      "cidade": "Florianópolis",
-      "estado": "SC",
+      "nameTrail": "Trilha de Naufragados",
+      "city": "Florianópolis",
+      "state": "SC",
       "duracao": 120,
-      "trajeto": 7,
-      "dificuldade": "Moderada",
-      "tipo": "Trekking",
-      "nomeUsuario": "Jaqueline",
-      "urlImagem": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "path": 7,
+      "difficulty": "Moderada",
+      "typeTrail": "Trekking",
+      "nameUser": "Jaqueline",
+      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "nomeTrilha": "Trilha do Vale da Utopia",
-      "cidade": "Pinheira",
-      "estado": "SC",
+      "nameTrail": "Trilha do Vale da Utopia",
+      "city": "Pinheira",
+      "state": "SC",
       "duracao": 210,
-      "trajeto": 5.5,
-      "dificuldade": "Moderada",
-      "tipo": "Trekking",
-      "nomeUsuario": "Jaqueline",
-      "urlImagem": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "path": 5.5,
+      "difficulty": "Moderada",
+      "typeTrail": "Trekking",
+      "nameUser": "Jaqueline",
+      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
 }

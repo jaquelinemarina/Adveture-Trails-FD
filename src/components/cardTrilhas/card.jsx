@@ -10,22 +10,22 @@ function CardTrilha({trilhas}) {
           <img
             className={style.img}
             width={200}
-            src={trilhas.urlImagem}
+            src={trilhas.urlImg}
             alt="imagem trilha"
           />
         </div>
 
         <div className={style.textContent}>
-          <h1 className={style.title}>{trilhas.nomeTrilha} - {trilhas.cidade} / {trilhas.estado}</h1>
-          <h3 className={style.user}>Por: {trilhas.nomeUsuario}</h3>
+          <h1 className={style.title}>{trilhas.nameTrail} - {trilhas.city} / {trilhas.state}</h1>
+          <h3 className={style.user}>Por: {trilhas.nameUser}</h3>
 
           <div className={style.info}>
-            <p>Duração: {trilhas.duracao} minutos</p>
-            <p>Trajeto: {trilhas.trajeto} km</p>
+            <p>Duração: {trilhas.duration} minutos</p>
+            <p>Trajeto: {trilhas.path} km</p>
           </div>
 
           <div className={style.difficulty}>
-            <p>Dificuldade: {trilhas.dificuldade}</p>
+            <p>Dificuldade: {trilhas.difficulty}</p>
           </div>
         </div>
       </div>
@@ -36,15 +36,15 @@ function CardTrilha({trilhas}) {
 // configuração das props types
 CardTrilha.propTypes = {
   trilhas: PropTypes.exact({
-    nomeTrilha: PropTypes.string.isRequired,
-    cidade: PropTypes.string.isRequired,
-    estado: PropTypes.string.isRequired,
-    duracao: PropTypes.number.isRequired,
-    trajeto: PropTypes.number.isRequired,
-    dificuldade: PropTypes.string.isRequired,
-    tipo: PropTypes.oneOf(["Hiking", "Trekking", "Ciclismo"]),
-    nomeUsuario: PropTypes.string.isRequired,
-    urlImagem: PropTypes.string.isRequired,
+    nameTrail: PropTypes.string.isRequired,
+    city: PropTypes.string.isRequired,
+    state: PropTypes.string.isRequired,
+    duration: PropTypes.number.isRequired,
+    path: PropTypes.number.isRequired,
+    difficulty: PropTypes.string.isRequired,
+    typeTrail: PropTypes.oneOf(["Hiking", "Trekking", "Ciclismo"]),
+    nameUser: PropTypes.string.isRequired,
+    urlImg: PropTypes.string.isRequired,
   }),
 };
 
