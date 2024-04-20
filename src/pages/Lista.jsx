@@ -7,7 +7,7 @@ import img from '../assets/img-background.jpg'
 
 export function Lista() {
 
-    const { trilhas, isLoading } = useContext(TrilhasContext)
+    const { trilhas, isLoading, novaTrilha } = useContext(TrilhasContext)
 
     return (
         <div className={style.container}>

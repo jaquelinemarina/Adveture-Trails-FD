@@ -1,6 +1,5 @@
 import * as PropTypes from "prop-types";
 import style from "./card.module.css";
-import trilhas from "../../pages/Lista";
 
 function CardTrilha({trilhas}) {
   return (
@@ -41,7 +40,7 @@ CardTrilha.propTypes = {
     state: PropTypes.string.isRequired,
     duration: PropTypes.number.isRequired,
     path: PropTypes.number.isRequired,
-    difficulty: PropTypes.string.isRequired,
+    difficulty: PropTypes.oneOf(["Fácil", "Moderada", "Difícil"]),
     typeTrail: PropTypes.oneOf(["Hiking", "Trekking", "Ciclismo"]),
     nameUser: PropTypes.string.isRequired,
     urlImg: PropTypes.string.isRequired,

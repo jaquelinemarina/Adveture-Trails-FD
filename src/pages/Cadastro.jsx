@@ -1,8 +1,13 @@
+import { useContext } from 'react'
+import { TrilhasContext } from '../context/TrilhasContext'
 import { useForm } from 'react-hook-form'
+import { useNavigate } from 'react-router-dom'
 import style from './styles/Cadastro.module.css'
 import img from '../assets/img-cadastro.jpeg'
 
 function Cadastro() {
+    const { addTrilha } = useContext(TrilhasContext)
+    const Navigate = useNavigate()
 
     const {
         register,
@@ -10,8 +15,11 @@ function Cadastro() {
         formState: { errors } } = useForm()
 
     function onSubmit(formValue) {
-        //lidar com o valor do formulário: enviar para a API, contexto, etc
         console.log("Formulário enviado", formValue)
+        
+        addTrilha({...formValue, duration: Number(formValue.duration), path: Number(formValue.path)}) 
+
+        Navigate('/Lista')
     }
 
     return (
@@ -45,7 +53,6 @@ function Cadastro() {
                             <div className={style.duration}>
                                 <label htmlFor="duration">Duração estimada (min)</label>
                                 <input type="number"
-                                    step={0.01} // permite a inserção de valores decimais
                                     {...register("duration", {
                                         required: "Por favor, insira a duração.",
                                         placeholder: "duração da trilha",
@@ -97,6 +104,7 @@ function Cadastro() {
                                     {...register("state", {
                                         required: "Por favor, selecione uma opção."
                                     })}>
+                                    <option value="">selecione o estado</option>
                                     <option value="AC">AC</option>
                                     <option value="AL">AL</option>
                                     <option value="AP">AP</option>
@@ -134,9 +142,10 @@ function Cadastro() {
                                     {...register("difficulty", {
                                         required: "Por favor, selecione uma opção."
                                     })}>
-                                    <option value="Iniciante">Iniciante</option>
+                                    <option value="">selecione a dificuldade</option>
+                                    <option value="Fácil">Fácil</option>
                                     <option value="Moderada">Moderada</option>
-                                    <option value="Avançada">Avançada</option>
+                                    <option value="Difícil">Difícil</option>
                                 </select>
                                 {errors?.difficulty && <p>{errors.difficulty.message}</p>}
                             </div>
@@ -149,6 +158,7 @@ function Cadastro() {
                             {...register("typeTrail", {
                                 required: "Por favor, selecione uma opção."
                             })}>
+                            <option value="">selecione o tipo de trilha</option>
                             <option value="Hiking">Hiking</option>
                             <option value="Trekking">Trekking</option>
                             <option value="Ciclismo">Ciclismo</option>
