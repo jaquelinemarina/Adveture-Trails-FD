@@ -5,7 +5,7 @@ import useFetch from '../hooks/useFetch'
 export const TrilhasContext = createContext();
 
 export const TrilhasContextProvider = ({ children }) => {
-    const [data, isLoading] = useFetch("/json/trilhas.json")
+    const [data, isLoading] = useFetch("/trilhas.json")
     const [trilhas, setTrilhas] = useState([]);
 
     //add nova trilha no contexto
