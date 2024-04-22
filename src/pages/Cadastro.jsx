@@ -16,8 +16,8 @@ function Cadastro() {
 
     function onSubmit(formValue) {
         console.log("Formulário enviado", formValue)
-        
-        addTrilha({...formValue, duration: Number(formValue.duration), path: Number(formValue.path)}) 
+
+        addTrilha({...formValue, duration: Number(formValue.duration), path: Number(formValue.path)})
 
         Navigate('/Lista')
     }
@@ -37,10 +37,10 @@ function Cadastro() {
 
                     <div className={style.nameTrail}>
                         <label htmlFor="nameTrail">Nome da trilha</label>
-                        <input type="text"
+                        <input placeholder="digite o nome da trilha"
+                            type="text"
                             {...register("nameTrail", {
                                 required: "Por favor, insira o nome da trilha.",
-                                placeholder: "digite o nome da trilha",
                                 minLength: { value: 3, message: "Insira um nome válido." },
                                 maxLength: { value: 100, message: "Máximo 100 caracteres." },
                             })} />
@@ -52,10 +52,10 @@ function Cadastro() {
 
                             <div className={style.duration}>
                                 <label htmlFor="duration">Duração estimada (min)</label>
-                                <input type="number"
+                                <input placeholder="duração da trilha"
+                                    type="number"
                                     {...register("duration", {
                                         required: "Por favor, insira a duração.",
-                                        placeholder: "duração da trilha",
                                         maxLength: { value: 4, message: "Máximo 4 caracteres." },
                                     })} />
                                 {errors?.duration && <p>{errors.duration.message}</p>}
@@ -63,10 +63,10 @@ function Cadastro() {
 
                             <div className={style.city}>
                                 <label htmlFor="city">Cidade</label>
-                                <input type="text"
+                                <input placeholder="digite o nome da cidade"
+                                    type="text"
                                     {...register("city", {
                                         required: "Por favor, digite a cidade.",
-                                        placeholder: "digite o nome da cidade",
                                         minLength: { value: 3, message: "Insira um nome válido." },
                                         maxLength: { value: 60, message: "Máximo 60 caracteres." },
                                     })} />
@@ -75,9 +75,9 @@ function Cadastro() {
 
                             <div className={style.nameUser}>
                                 <label htmlFor="nameUser">Nome completo do usuário</label>
-                                <input type="text"
+                                <input placeholder="digite o seu nome completo"
+                                    type="text"
                                     {...register("nameUser", {
-                                        placeholder: "digite o seu nome completo",
                                         maxLength: { value: 60, message: "Máximo 60 caracteres." },
                                     })} />
                                 {errors?.nameUser && <p>{errors.nameUser.message}</p>}
@@ -88,11 +88,11 @@ function Cadastro() {
 
                             <div className={style.path}>
                                 <label htmlFor="path">Trajeto (km)</label>
-                                <input type="number"
+                                <input placeholder="distância da trilha"
+                                    type="number"
                                     step={0.01}
                                     {...register("path", {
                                         required: "Por favor, insira a distância.",
-                                        placeholder: "distância da trilha",
                                         maxLength: { value: 5, message: "Máximo 5 caracteres." },
                                     })} />
                                 {errors?.path && <p>{errors.path.message}</p>}
@@ -168,9 +168,9 @@ function Cadastro() {
 
                     <div className={style.urlImg}>
                         <label htmlFor="urlImg">URL imagem da trilha</label>
-                        <input type="text"
+                        <input placeholder="insira o link da imagem"
+                            type="text"
                             {...register("urlImg", {
-                                placeholder: "insira o link da imagem",
                                 maxLength: { value: 300, message: "Máximo 300 caracteres." },
                             })} />
                         {errors?.urlImg && <p>{errors.urlImg.message}</p>}
