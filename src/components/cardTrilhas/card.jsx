@@ -1,7 +1,12 @@
-import * as PropTypes from "prop-types";
-import style from "./card.module.css";
+import * as PropTypes from "prop-types"
+import style from "./card.module.css"
+import { useContext } from "react"
+import { TrilhasContext } from "../../context/TrilhasContext"
+import React from "react"
 
-function CardTrilha({trilhas}) {
+function CardTrilha() {
+  const {trilhas} = useContext(TrilhasContext)
+
   return (
     <div className={style.container}>
       <div className={style.card}>
@@ -47,4 +52,4 @@ CardTrilha.propTypes = {
   }),
 };
 
-export default CardTrilha;
+export default CardTrilha

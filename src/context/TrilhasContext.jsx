@@ -24,7 +24,7 @@ export const TrilhasContextProvider = ({ children }) => {
     ]);
 
     function addTrilha(novaTrilha) { 
-        setNovaTrilha((t) => [...t, {...novaTrilha, id: c.length + 1}]); 
+        setNovaTrilha((t) => [...t, {...novaTrilha, id: t.length + 1}]); 
         console.log(novaTrilha); 
     }
 
