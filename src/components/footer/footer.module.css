@@ -15,11 +15,16 @@
     color: var(--white);
 }
 
+i {
+    font-size: 1.5em;
+    color: var(--white);
+}
+
 .social {
     margin-top: .2em;
     margin-left: 65em;
 }
 
 .github {
-    margin-right: 1.2em;
+    margin-right: 1.4em;
 }
