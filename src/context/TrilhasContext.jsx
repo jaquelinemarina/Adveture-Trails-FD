@@ -1,12 +1,27 @@
 import { createContext, useEffect, useState } from 'react'
-import useFetch from '../hooks/useFetch'
 
 
 export const TrilhasContext = createContext();
 
 export const TrilhasContextProvider = ({ children }) => {
-    const [data, isLoading] = useFetch("/trilhas.json")
     const [trilhas, setTrilhas] = useState([]);
+
+     //monitora o json de trilhas cadastrados
+     useEffect(() => {
+        getTrilhas()
+    }, [])
+
+    useEffect(() => {
+
+    }, [trilhas]);
+
+    //fetch para buscar trilhas no json
+    function getTrilhas() {
+        fetch("http://localhost:3000/trilhas")
+            .then((response) => response.json())
+            .then((data) => setTrilhas(data))
+            .catch((error) => console.log(error));
+    }
 
     //add nova trilha no contexto
     const [novaTrilha, setNovaTrilha] = useState([
@@ -28,14 +43,14 @@ export const TrilhasContextProvider = ({ children }) => {
         console.log(novaTrilha); 
     }
 
-    useEffect(() => {
-        if (!!data && !!isLoading) {
-            setTrilhas(data.trilhas);
-        }
-    }, [data]);
+    // useEffect(() => {
+    //     if (!!data && !!isLoading) {
+    //         setTrilhas(data.trilhas);
+    //     }
+    // }, [data]);
 
     return (
-        <TrilhasContext.Provider value={{ trilhas, setTrilhas, data, isLoading, novaTrilha, addTrilha }}>
+        <TrilhasContext.Provider value={{ trilhas, setTrilhas, getTrilhas,  novaTrilha, addTrilha }}>
             {children}
         </TrilhasContext.Provider>
     )

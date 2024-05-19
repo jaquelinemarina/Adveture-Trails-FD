@@ -1,11 +1,8 @@
 import * as PropTypes from "prop-types"
 import style from "./card.module.css"
-import { useContext } from "react"
-import { TrilhasContext } from "../../context/TrilhasContext"
 import React from "react"
 
-function CardTrilha() {
-  const {trilhas} = useContext(TrilhasContext)
+function CardTrilha({ trilhas }) {
 
   return (
     <div className={style.container}>
@@ -49,6 +46,7 @@ CardTrilha.propTypes = {
     typeTrail: PropTypes.oneOf(["Hiking", "Trekking", "Ciclismo"]),
     nameUser: PropTypes.string.isRequired,
     urlImg: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired,
   }),
 };
 
