@@ -1,48 +1,114 @@
 {
   "trilhas": [
     {
-      "nameTrail": "Trilha da Costa da Lagoa",
-      "city": "Florianópolis",
-      "state": "SC",
-      "duration": 90,
-      "path": 4,
-      "difficulty": "Fácil",
-      "typeTrail": "Hiking",
-      "nameUser": "Jaqueline",
-      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "nameTrail": "Trilha do Gravatá",
-      "city": "Florianópolis",
-      "state": "SC",
+      "nameTrail": "Cachoeira do Mosquito",
+      "city": "Chapada Diamantina",
+      "state": "BA",
       "duration": 40,
-      "path": 1.4,
+      "path": 1.5,
+      "difficulty": "Moderada",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/fumaça.jpg"
+    },
+    {
+      "nameTrail": "Praia do Matadeiro",
+      "city": "Florianópolis",
+      "state": "SC",
+      "duration": 10,
+      "path": 0.5,
       "difficulty": "Fácil",
       "typeTrail": "Hiking",
       "nameUser": "Jaqueline",
-      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "urlImg": "./src/assets/imgTrilhas/matadeiro.jpg"
     },
     {
-      "nameTrail": "Trilha de Naufragados",
+      "nameTrail": "Chapadão de Pipa",
+      "city": "Pipa",
+      "state": "RN",
+      "duration": 20,
+      "path": 0.8,
+      "difficulty": "Fácil",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/chapadão.jpg"
+    },
+    {
+      "nameTrail": "Cachoeira do Abismo",
+      "city": "Chapada dos Veadeiros",
+      "state": "GO",
+      "duration": 150,
+      "path": 6.5,
+      "difficulty": "Difícil",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/abismo.jpg"
+    },
+    {
+      "nameTrail": "Mirante Saco do Céu",
+      "city": "Ilha Grande",
+      "state": "RJ",
+      "duration": 90,
+      "path": 3,
+      "difficulty": "Fácil",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/sacocéu.jpeg"
+    },
+    {
+      "nameTrail": "Soldados Sebold",
+      "city": "Alfredo Wagner",
+      "state": "SC",
+      "duration": 170,
+      "path": 6.8,
+      "difficulty": "Moderada",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/soldados.jpg"
+    },
+    {
+      "nameTrail": "Vale da Lua",
+      "city": "Chapada dos Veadeiros",
+      "state": "GO",
+      "duration": 15,
+      "path": 0.6,
+      "difficulty": "Fácil",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/lua.jpg"
+    },
+    {
+      "nameTrail": "Praia Secreta",
       "city": "Florianópolis",
       "state": "SC",
-      "duration": 120,
-      "path": 7,
-      "difficulty": "Moderada",
-      "typeTrail": "Trekking",
+      "duration": 30,
+      "path": 1,
+      "difficulty": "Fácil",
+      "typeTrail": "Hiking",
       "nameUser": "Jaqueline",
-      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "urlImg": "./src/assets/imgTrilhas/secreta.jpg"
     },
     {
-      "nameTrail": "Trilha do Vale da Utopia",
-      "city": "Pinheira",
-      "state": "SC",
-      "duration": 210,
-      "path": 5.5,
+      "nameTrail": "Falésias de Morro Branco",
+      "city": "Beberibe",
+      "state": "CE",
+      "duration": 60,
+      "path": 2.6,
       "difficulty": "Moderada",
-      "typeTrail": "Trekking",
+      "typeTrail": "Hiking",
       "nameUser": "Jaqueline",
-      "urlImg": "https://images.pexels.com/photos/917510/pexels-photo-917510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "urlImg": "./src/assets/imgTrilhas/morrob.jpg"
+    },
+    {
+      "nameTrail": "Praia da Fome",
+      "city": "Ilhabela",
+      "state": "SP",
+      "duration": 120,
+      "path": 4.2,
+      "difficulty": "Moderada",
+      "typeTrail": "Hiking",
+      "nameUser": "Jaqueline",
+      "urlImg": "./src/assets/imgTrilhas/fome.jpg"
     }
   ]
 }
