@@ -1,8 +1,9 @@
-import style from './styles/Lista.module.css';
-import CardTrilha from '../components/cardTrilhas/card';
-import { TrilhasContext } from '../context/TrilhasContext';
-import { useContext } from 'react';
+import style from './styles/Lista.module.css'
+import CardTrilha from '../components/cardTrilhas/card'
+import { TrilhasContext } from '../context/TrilhasContext'
+import { useContext } from 'react'
 import img from '../assets/img-background.jpg'
+import BtnScroll from '../components/btnScroll/btnScroll'
 
 
 export function Lista() {
@@ -24,8 +25,9 @@ export function Lista() {
                     <CardTrilha key={trilha.id} trilhas={trilha} />
                 ))}
             </div>
+            <BtnScroll />
         </div>
-    );
+    )
 }
 
-export default Lista;
+export default Lista

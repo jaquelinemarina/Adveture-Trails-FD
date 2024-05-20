@@ -2,6 +2,7 @@ import style from './styles/Home.module.css'
 import img from '../assets/img-background.jpg'
 import img2 from '../assets/img2.jpg' 
 import { Link } from 'react-router-dom'
+import BtnScroll from '../components/btnScroll/btnScroll'
 
 function Home() {
     return (
@@ -45,6 +46,7 @@ function Home() {
                     </img>
                 </div>
             </div>
+            < BtnScroll />
         </div >
     )
 }
