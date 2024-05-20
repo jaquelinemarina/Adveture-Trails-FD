@@ -1,23 +1,26 @@
 import * as PropTypes from "prop-types"
 import style from "./card.module.css"
 import React from "react"
+import { useContext } from "react"
+import { TrilhasContext } from "../../context/TrilhasContext"
 
 function CardTrilha({ trilhas }) {
+
+  const {deleteTrilha} = useContext(TrilhasContext)
 
   return (
     <div className={style.container}>
       <div className={style.card}>
-        <div className={style.imgcontent}>
+        <div className={style.imgContent}>
           <img
             className={style.img}
-            width={250}
             src={trilhas.urlImg}
             alt="imagem trilha"
           />
         </div>
 
         <div className={style.textContent}>
-          <i className={"fa-solid fa-trash-can"}></i>
+        <button className={style.btnDelete} onClick={() => deleteTrilha(trilhas.id)}><i className={"fa-solid fa-trash-can"}></i></button>
           <h1 className={style.title}>{trilhas.nameTrail} </h1>
           <h1 className={style.subtitle}>{trilhas.city} / {trilhas.state}</h1>
           <h3 className={style.user}>Por: {trilhas.nameUser}</h3>
