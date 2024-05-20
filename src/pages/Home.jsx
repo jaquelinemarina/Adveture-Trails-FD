@@ -1,6 +1,7 @@
 import style from './styles/Home.module.css'
 import img from '../assets/img-background.jpg'
 import img2 from '../assets/img2.jpg' 
+import { Link } from 'react-router-dom'
 
 function Home() {
     return (
@@ -18,7 +19,7 @@ function Home() {
                     Junte-se à comunidade de entusiastas ao ar livre, compartilhe suas aventuras e inspire-se com as experiências de outros aventureiros.
                     Prepare-se para explorar novos horizontes e se conectar com a natureza através do Adventure Trails FD
                 </p>
-                <a className={style.button1} href="./Lista">Explorar Trilhas</a>
+                <Link to="/Lista" className={style.listHome}>Explorar Trilhas</Link>
             </div>
 
             <div className={style.content2}>
@@ -29,13 +30,13 @@ function Home() {
                         Descubra rotas deslumbrantes, desde caminhos tranquilos por florestas exuberantes até trilhas desafiadoras em montanhas majestosas.
                         Encontre informações detalhadas sobre cada trilha, incluindo distância, dificuldade, pontos de interesse naturais e dicas úteis para uma experiência eco-friendly.
                     </p>
-                    <a className={style.button2} href="./Lista">Explorar Trilhas</a>
+                    <Link to="/Lista" className={style.listHome2}>Explorar Trilhas</Link>
                 </div>
 
                 <div className={style.register}>
                     <div className={style.text}>
                         <h1 className={style.title3}>Compartilhe fotos, dicas e localização das suas trilhas favoritas</h1>
-                        <a className={style.button3} href="./Cadastro">Cadastrar Trilhas</a>
+                        <Link to="/Cadastro" className={style.registerHome}>Cadastrar Trilhas</Link>
                     </div>
 
                     <img className={style.img2}
