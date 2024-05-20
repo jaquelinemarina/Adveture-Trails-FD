@@ -6,6 +6,7 @@
     width: 100vw;
     height: 3.3em;
     background: var(--midnightGreen);
+    position: absolute;
 }
 
 .home,
