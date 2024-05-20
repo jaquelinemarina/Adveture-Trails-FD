@@ -7,13 +7,14 @@
     margin-top: 1em;
 }
 
-.imgcontent {
+.imgContent {
     width: 17em;
     height: 21em;
+    margin-top: -2em;
+    background-color: #ebedef;
 }
 
 .img {
-    margin-top: -2em;
     width: 17em;
     height: 21em;
     box-shadow: 0px 4px 4px 0px #00000040;
@@ -21,22 +22,30 @@
 
 .card {
     display: flex;
-    width: 50em;
+    width: 60em;
     height: 21em;
     padding: 32px 0px 0px 0px;
     box-shadow: 4px 4px 4px 0px #00000040;
     background: var(--white);
 }
 
-.container i {
-    color: var(--midnightGreen);
-    position: absolute;
-    margin-left: 19em;
+.btnDelete{
+    margin-left: 33.5em;
+    margin-right: 0;
+    outline: none;
+    border: none;
+    width: 3em;
+    background-color: transparent;
     cursor: pointer;
+    position: absolute;
+}
+
+.btnDelete i{
+    color: var(--midnightGreen);
 }
 
 .textContent {
-    width: 40em;
+    width: 32em;
     display: flex;
     flex-direction: column;
     margin-left: 1.5em;
@@ -50,6 +59,7 @@
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 1.5px;
+    width: 35em;
 }
 
 .subtitle {
@@ -63,8 +73,9 @@
 
 .user {
     position: absolute;
+    width: 27em;
+    text-align: right;
     margin-top: 14.7em;
-    margin-left: 19em;
     font-size: 18px;
     font-weight: 500;
     color: var(--lightGray);
