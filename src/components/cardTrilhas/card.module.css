@@ -7,6 +7,16 @@
     margin-top: 1em;
 }
 
+.container:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.container:hover .card {
+    transform: scale(1.01);
+    transition: 2s;
+}
+
 .imgContent {
     width: 15em;
     height: 20em;
