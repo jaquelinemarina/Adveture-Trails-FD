@@ -8,30 +8,31 @@
 }
 
 .imgContent {
-    width: 17em;
-    height: 21em;
+    width: 15em;
+    height: 20em;
     margin-top: -2em;
     background-color: #ebedef;
 }
 
 .img {
-    width: 17em;
-    height: 21em;
+    width: 15em;
+    height: 20em;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
 .card {
     display: flex;
-    width: 60em;
-    height: 21em;
+    width: 45em;
+    height: 20em;
     padding: 32px 0px 0px 0px;
     box-shadow: 4px 4px 4px 0px #00000040;
     background: var(--white);
 }
 
 .btnDelete{
-    margin-left: 33.5em;
+    margin-left: 29.5em;
     margin-right: 0;
+    margin-top: -.3em;
     outline: none;
     border: none;
     width: 3em;
@@ -45,37 +46,38 @@
 }
 
 .textContent {
-    width: 32em;
+    width: 28em;
     display: flex;
     flex-direction: column;
     margin-left: 1.5em;
     letter-spacing: 1.5px;
-    gap: .5em;
+    gap: .4em;
     font-family: "Inter", sans-serif;
 }
 
 .title {
     color: var(--midnightGreen);
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     letter-spacing: 1.5px;
-    width: 35em;
+    width: 18em;
+    margin-top: -.3em;
 }
 
 .subtitle {
     color: var(--lightGray);
     margin-left: .1em;
     margin-top: .2em;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 500;
     letter-spacing: 1.5px;
 }
 
 .user {
     position: absolute;
-    width: 27em;
+    width: 24em;
     text-align: right;
-    margin-top: 14.7em;
+    margin-top: 14em;
     font-size: 18px;
     font-weight: 500;
     color: var(--lightGray);
@@ -89,11 +91,11 @@
     letter-spacing: 1%;
     text-align: left;
     color: #555e66;
-    width: 25em;
+    width: 18em;
 }
 
 .difficulty {
-    margin-top: 1em;
+    margin-top: .7em;
     font-size: 23px;
     font-weight: 500;
 }
