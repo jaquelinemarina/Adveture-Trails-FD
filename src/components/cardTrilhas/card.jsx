@@ -10,14 +10,16 @@ function CardTrilha({ trilhas }) {
         <div className={style.imgcontent}>
           <img
             className={style.img}
-            width={200}
+            width={250}
             src={trilhas.urlImg}
             alt="imagem trilha"
           />
         </div>
 
         <div className={style.textContent}>
-          <h1 className={style.title}>{trilhas.nameTrail} - {trilhas.city} / {trilhas.state}</h1>
+          <i className={"fa-solid fa-trash-can"}></i>
+          <h1 className={style.title}>{trilhas.nameTrail} </h1>
+          <h1 className={style.subtitle}>{trilhas.city} / {trilhas.state}</h1>
           <h3 className={style.user}>Por: {trilhas.nameUser}</h3>
 
           <div className={style.info}>
