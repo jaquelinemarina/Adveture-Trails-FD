@@ -7,6 +7,11 @@
     margin-top: 1em;
 }
 
+.imgcontent {
+    width: 17em;
+    height: 21em;
+}
+
 .img {
     margin-top: -2em;
     width: 17em;
@@ -62,7 +67,6 @@
     margin-left: 19em;
     font-size: 18px;
     font-weight: 500;
-    text-align: right;
     color: var(--lightGray);
 }
 
@@ -74,16 +78,16 @@
     letter-spacing: 1%;
     text-align: left;
     color: #555e66;
+    width: 25em;
 }
 
 .difficulty {
     margin-top: 1em;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 500;
 }
 
 .container p {
     margin-top: 1em;
-    text-align: left;
     color: var(--lightGray);
 }
