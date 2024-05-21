@@ -1,13 +1,12 @@
 <p align="center">
-  <img src="https://github.com/jaquelinemarina/Adveture-Trails-FD/assets/153782247/6f296d84-50c9-4628-a12c-1cad068738e3" alt="Logo Adventure Trails FD">
+ <img src="https://github.com/jaquelinemarina/Adveture-Trails-FD/assets/153782247/05557287-8b48-4b2f-94ed-a4eff3564d10" width="1000" alt="Logo Adventure Trails FD">
 </p>
 
-  **Adventure Trails FD** é uma plataforma dedicada ao Compartilhamento de Rotas para Caminhadas e Ciclismo. Este é o meu primeiro projeto desenvolvido utilizando **React**, realizado como parte das atividades semanais da formação **Futuro DEV - Floripa Mais Tec 2**, coordenada pelo **Lab365** em parceria com a **Prefeitura de Florianópolis**, **SESI** e **SENAI**.
 
-  A aplicação permite ao usuário navegar pela página **Explorar Trilhas**, onde encontrará Cards préviamente cadastrados contendo informações detalhadas sobre cada trilha, tais como localização, distância, duração e nível de dificuldade.
-  O usuário também tem aopção de **Cadastrar uma Nova Trilha** na págida de Cadastro, onde poderá inserir informações e imagens de suas trilhas favoritas.
-  As informações obtidas através do **React Hook Form** são armazenadas em um **Context** e exibidas em um novo card na página de Explorar Trilhas.
- 
+**Adventure Trails FD** é uma plataforma dedicada ao Compartilhamento de Rotas para Caminhadas e Ciclismo. Este é o meu primeiro projeto desenvolvido utilizando **React**, realizado como parte das atividades semanais da formação **Futuro DEV - Floripa Mais Tec 2**, coordenada pelo **Lab365** em parceria com a **Prefeitura de Florianópolis**, **ACATE**, **SESI** e **SENAI**.
+  
+A aplicação permite ao usuário navegar pela página **"Explorar Trilhas"**, onde encontrará cards previamente cadastrados com informações detalhadas sobre cada trilha, como localização, distância, duração e nível de dificuldade. O usuário também tem a opção de cadastrar uma nova trilha na página de cadastro, podendo inserir informações e imagens de suas trilhas favoritas. Além disso, é possível deletar trilhas existentes na página **"Explorar Trilhas"**.
+
 <br>
 
 ## Tecnologias Utilizadas
@@ -23,17 +22,33 @@
 
 <br>
 
-## Deployd
-O Deployd da aplicação foi realizado utilizando a platafotma **Vercel**. <br>
-Acesse o **Adventure Trails FD** copiando e colando o link abaixo em seu navegador:
+## Clonagem do Repositório
+Para usar o Adventure Trails FD, clone ou faça download do repositório:
 
 ```bash
-link da aplicação
+git clone https://github.com/jaquelinemarina/Adveture-Trails-FD
 ```
 
-## Uso
+## Instalação
+Para instalar a aplicação:
 
-O uso é intuitivo com interação direta pelo navegador.
+```shell
+npm install
+```
+
+## Execução da Aplicação
+Para iniciar a aplicação:
+
+```shell
+npm run dev
+```
+
+## Execução do JSON Server
+Para iniciar o JSON Server e simular um servidor de API:
+
+```shell
+npx json-server public/trilhas.json
+```
 
 <br>
 
@@ -61,12 +76,13 @@ Semana focada em criar a para página de cadastro de trilhas. O objetivo final s
 
 ## Referências
 
+- Imagens: acervo pessoal
 - Cores: [ Coolors ](https://coolors.com/)
 - Fontes: [ Google Fonts](https://fonts.google.com/)
-- Imagens: acervo pessoal
 
 <br>
 
 ## Autora
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/153782247?v=4" width=115><br>Jaqueline Marina](www.linkedin.com/in/jaquelinemarina)  
+
