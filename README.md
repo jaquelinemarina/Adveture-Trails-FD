@@ -2,10 +2,13 @@
  <img src="https://github.com/jaquelinemarina/Adveture-Trails-FD/assets/153782247/05557287-8b48-4b2f-94ed-a4eff3564d10" width="1000" alt="Logo Adventure Trails FD">
 </p>
 
-
 **Adventure Trails FD** é uma plataforma dedicada ao Compartilhamento de Rotas para Caminhadas e Ciclismo. Este é o meu primeiro projeto desenvolvido utilizando **React**, realizado como parte das atividades semanais da formação **Futuro DEV - Floripa Mais Tec 2**, coordenada pelo **Lab365** em parceria com a **Prefeitura de Florianópolis**, **ACATE**, **SESI** e **SENAI**.
   
 A aplicação permite ao usuário navegar pela página **"Explorar Trilhas"**, onde encontrará cards previamente cadastrados com informações detalhadas sobre cada trilha, como localização, distância, duração e nível de dificuldade. O usuário também tem a opção de cadastrar uma nova trilha na página de cadastro, podendo inserir informações e imagens de suas trilhas favoritas. Além disso, é possível deletar trilhas existentes na página **"Explorar Trilhas"**.
+
+<br>
+
+https://github.com/jaquelinemarina/Adveture-Trails-FD/assets/153782247/e11fb51a-07c5-4bd2-8303-8f2115e9e222
 
 <br>
 
