@@ -73,7 +73,7 @@ Semana focada em criar as páginas do sistema; criar o gerenciamento de estado g
 <br>
 
 ><b> Semana 13 </b> <br>
-Semana focada em criar a para página de cadastro de trilhas. O objetivo final será criar o formulário com react-hook-forms, incluindo estrutura, validações e submit.
+Semana focada em criar a página de cadastro de trilhas. O objetivo final será criar o formulário com react-hook-forms, incluindo estrutura, validações e submit.
 
 <br>
 
